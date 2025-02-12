@@ -1,0 +1,11 @@
+Install ollama   :  https://ollama.com/download
+Command prompt   :  https://ollama.com/library/deepseek-r1
+
+For having a interactive UI;
+
+Install openWebUi: https://docs.openwebui.com/
+Install Docker
+Command prompt: docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+Check in Docker, if the deepseek image is up and running
+Web browser:   localhost:3000/auth
+and Voila!’
